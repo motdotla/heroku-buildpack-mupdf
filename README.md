@@ -1,6 +1,6 @@
 # Heroku buildpack: MuPDF
 
-![](http://www.mupdf.com/mupdf-logo.png)
+![](https://raw.githubusercontent.com/scottmotte/heroku-buildpack-mupdf/master/heroku-buildpack-mupdf.jpg)
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for [MuPDF](http://www.mupdf.com/). 
 
