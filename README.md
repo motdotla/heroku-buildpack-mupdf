@@ -13,8 +13,8 @@ heroku create -b https://github.com/scottmotte/carve-worker.git
 heroku config:add BUILDPACK_URL=https://github.com/scottmotte/carve-worker.git
 
 git push heroku master
-``
-`
+```
+
 ## Recommended
 
 Use [heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi) to combine this buildpack with others. For example, [carve-worker](http://github.com/scottmotte/carve-worker) does this.
