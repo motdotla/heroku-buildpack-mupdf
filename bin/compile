@@ -13,4 +13,4 @@ curl https://github.com/scottmotte/mupdf-binary/blob/master/mupdf.tar.gz?raw=tru
 mkdir -p vendor/mupdf
 
 # untar the binary to the directory we want
-tar -C vendor/mupdf -xvf mupdf.tgz
+tar -C vendor/mupdf -xvf mupdf.tar.gz
