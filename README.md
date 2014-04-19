@@ -1,6 +1,6 @@
-# Heroku buildpack: mupdf
+# Heroku buildpack: MuPDF
 
-This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for [mupdf](http://www.mupdf.com/). 
+This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for [MuPDF](http://www.mupdf.com/). 
 
 ## Usage
 
