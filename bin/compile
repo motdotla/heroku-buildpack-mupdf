@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# bin/compile <build-dir> <cache-dir>
 
 echo "-----> Installing MuPDF 1.3"
 
