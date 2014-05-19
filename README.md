@@ -7,10 +7,10 @@ This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) fo
 ## Usage
 
 ```
-heroku create -b https://github.com/scottmotte/carve-worker.git
+heroku create -b https://github.com/scottmotte/heroku-buildpack-mupdf.git
 
 # or if your app is already created
-heroku config:add BUILDPACK_URL=https://github.com/scottmotte/carve-worker.git
+heroku config:add BUILDPACK_URL=https://github.com/scottmotte/heroku-buildpack-mupdf.git
 
 git push heroku master
 ```
