@@ -8,8 +8,10 @@ cd $1
 # download the binary
 wget http://mupdf.com/downloads/mupdf-1.8-source.tar.gz -O mupdf.tar.gz
 
-# make a directory to untar (like unzip) the binary
-mkdir -p vendor/mupdf
+# untar the binary
+tar -xvf mupdf.tar.gz
 
-# untar the binary to the directory we want
-tar -C vendor/mupdf -xvf mupdf.tar.gz
+# compile
+mkdir bin
+cd mupdf-1.8-source
+make HAVE_X11=no
