@@ -1,16 +1,16 @@
 # Heroku buildpack: MuPDF
 
-![](https://raw.githubusercontent.com/motdotla/heroku-buildpack-mupdf/master/heroku-buildpack-mupdf.jpg)
+![](https://raw.githubusercontent.com/fiatjaf/heroku-buildpack-mupdf/master/heroku-buildpack-mupdf.jpg)
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for [MuPDF](http://www.mupdf.com/). 
 
 ## Usage
 
 ```
-heroku create -b https://github.com/motdotla/heroku-buildpack-mupdf.git
+heroku create -b https://github.com/fiatjaf/heroku-buildpack-mupdf.git
 
 # or if your app is already created
-heroku config:add BUILDPACK_URL=https://github.com/motdotla/heroku-buildpack-mupdf.git
+heroku config:add BUILDPACK_URL=https://github.com/fiatjaf/heroku-buildpack-mupdf.git
 
 git push heroku master
 ```

@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-echo "-----> Installing MuPDF 1.3"
+echo "-----> Installing MuPDF 1.8"
 
 # change to the the BUILD_DIR ($1)
 cd $1
 
-# download the binary (-O) silently (-s)
-curl https://raw.githubusercontent.com/motdotla/mupdf-binary/master/mupdf.tar.gz -s -O -ssl3
+# download the binary
+wget http://mupdf.com/downloads/mupdf-1.8-source.tar.gz -O mupdf.tar.gz
 
 # make a directory to untar (like unzip) the binary
 mkdir -p vendor/mupdf
