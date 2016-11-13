@@ -6,7 +6,7 @@ echo "-----> Installing MuPDF 1.8"
 cd $1
 
 # download the binary
-wget http://mupdf.com/downloads/mupdf-1.8-source.tar.gz -O mupdf.tar.gz
+wget http://mupdf.com/downloads/archive/mupdf-1.8-source.tar.gz -O mupdf.tar.gz
 
 # untar the binary
 tar -xvf mupdf.tar.gz
